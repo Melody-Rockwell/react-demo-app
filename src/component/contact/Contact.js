@@ -67,6 +67,7 @@ class Contact extends Component {
               value={this.state.formData.lastName}
               onChange={this.handleChange}
             />
+            <br />
             <button>Submit Form</button>
           </div>
         </form>
